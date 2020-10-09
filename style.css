@@ -1,9 +1,8 @@
 body {
-    width: 1795px;
-    height: 2480px;
+    width: 1530px;
+    height: 2048px;
     font-family: 'Lato', sans-serif;
     font-size: 28px;
-    border: 1px solid red;
 }
 h3{
     font-size: 42px;
@@ -24,13 +23,13 @@ main {
     width: 300px;
     height: 450px;
     float: left;
-    margin-left: 100px;
+    margin-left: 125px;
 }
 
 #title {
-    width: 830px;
+    width: 780px;
     height: 450px;
-    margin-left: 100px;
+    margin-left: 125px;
     float: left;
 }
 
@@ -51,17 +50,17 @@ main {
 
 #rightSide {
     float: left;
-    width: 727px;
-    height: 1470px;
+    width: 677px;
+    height: 1350px;
     border-left: 1px solid red;
     margin-top: 50px;
     padding-left: 70px;
 }
 
 #leftSide {
-    width: 497px;
+    width: 547px;
     float: left;
-    height: 1470px;
+    height: 1350px;
     border-right: 1px solid red;
     margin-top: 50px;
 }
@@ -83,9 +82,13 @@ footer {
 
 }
 
+.info{
+    line-height: 160%;
+}
+
 .infoL {
     float: left;
-    width: 150px;
+    width: 200px;
 }
 
 .infoR {
@@ -98,15 +101,16 @@ ul > li{
 
 
 .taskRL{
-    width: 240px;
+    width: 250px;
     float: left;
 }
 
 .taskRR{
-    width: 347px;
-    margin-right: 50px;
+    width: 377px;
     float: left;
     margin-left: 50px;
+    text-align: left;
+    line-height: 130%;
 }
 
 
