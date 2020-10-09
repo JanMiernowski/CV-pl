@@ -3,6 +3,7 @@ body {
     height: 2048px;
     font-family: 'Lato', sans-serif;
     font-size: 28px;
+    border-top: 1px solid red;
 }
 h3{
     font-size: 42px;
