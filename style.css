@@ -20,16 +20,16 @@ main {
 }
 
 #img {
-    width: 300px;
+    width: 334px;
     height: 450px;
     float: left;
-    margin-left: 125px;
+    margin-left: 107px;
+    margin-right: 107px;
 }
 
 #title {
-    width: 780px;
+    width: 746px;
     height: 450px;
-    margin-left: 125px;
     float: left;
 }
 
