@@ -1,16 +1,17 @@
-lista = ['Java 8', 'Maven', 'MySQL i Microsoft SQL Server','Hibernate i JDBC',
-    'HTML, CSS i JavaScript','TypeScript','Angular','JUnit 5','C++','GIT'];
-let calaLista = "";
-function start() {
-    for (let i = 0; i < lista.length; i++) {
-        calaLista += '<span class="tick">✓ </span>';
-        if(lista[i]==='Java 8'){
-            calaLista += '<b>' + lista[i] + '</b><br/>';
-        }else {
-            calaLista += lista[i] + '<br/>';
+skills = ['Java 8', 'Maven', 'MySQL i Microsoft SQL Server', 'Hibernate i JDBC',
+    'HTML, CSS i JavaScript', 'TypeScript', 'Angular', 'JUnit 5', 'C++', 'GIT'];
+let viewSkills = "";
+
+function viewSkillsList() {
+    for (let i = 0; i < skills.length; i++) {
+        viewSkills += '<span class="tick">✓  </span>';
+        if (skills[i] === 'Java 8') {
+            viewSkills += '<b>' + skills[i] + '</b><br/>';
+        } else {
+            viewSkills += skills[i] + '<br/>';
         }
     }
-    document.getElementById("skills").innerHTML = calaLista;
+    document.getElementById("skills").innerHTML = viewSkills;
 }
 
-window.onload = start;
+window.onload = viewSkillsList;

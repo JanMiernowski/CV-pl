@@ -4,13 +4,18 @@ body {
     font-family: 'Lato', sans-serif;
     font-size: 28px;
 }
-h3{
+
+h3 {
     font-size: 42px;
     font-weight: 700;
     margin-bottom: 20px;
-
 }
-#contenet{
+
+.h3WithoutMarginTop {
+    margin-top: 0;
+}
+
+.contenet {
     margin-bottom: 50px;
 }
 
@@ -19,7 +24,7 @@ main {
     height: 2048px;
 }
 
-#img {
+.img {
     width: 334px;
     height: 450px;
     float: left;
@@ -27,20 +32,30 @@ main {
     margin-right: 107px;
 }
 
-#title {
+.foto {
+    width: 334px;
+    height: 450px;
+}
+
+.title {
     width: 746px;
     height: 450px;
     float: left;
 }
 
-#name {
+.name {
     height: 199px;
     letter-spacing: 2px;
     padding-top: 15px;
     border-bottom: 1px solid red;
 }
 
-#description {
+.fullName {
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.description {
     height: 224px;
     border-top: 1px solid red;
     font-size: 28px;
@@ -48,7 +63,7 @@ main {
     padding-top: 10px;
 }
 
-#rightSide {
+.rightSide {
     float: left;
     width: 677px;
     height: 1350px;
@@ -57,21 +72,22 @@ main {
     padding-left: 70px;
 }
 
-#leftSide {
+.leftSide {
     width: 547px;
     float: left;
     height: 1350px;
     border-right: 1px solid red;
     margin-top: 50px;
 }
-#skills{
+
+#skills {
     margin-left: -33px;
 }
-.tick{
+
+.tick {
     font-size: 36px;
     color: red;
 }
-
 
 footer {
     margin-top: 70px;
@@ -86,36 +102,38 @@ footer {
 
 .taskR {
     margin-bottom: 50px;
-
 }
 
-.info{
+.info {
     line-height: 160%;
 }
 
 .infoL {
     float: left;
+    width: 80px;
+}
+
+.languages {
     width: 200px;
+    float: left;
+}
+
+.languageSkill {
+    font-weight: bold;
+    float: left;
+
 }
 
 .infoR {
     float: left;
-
-}
-ul > li{
-    list-style-position: outside;
-    list-style-type: '✓ ';
-    color: red;
 }
 
-
-
-.taskRL{
+.taskRL {
     width: 250px;
     float: left;
 }
 
-.taskRR{
+.taskRR {
     width: 377px;
     float: left;
     margin-left: 50px;
