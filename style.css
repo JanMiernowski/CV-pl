@@ -64,6 +64,13 @@ main {
     border-right: 1px solid red;
     margin-top: 50px;
 }
+.skills{
+    margin-left: -33px;
+}
+.tick{
+    font-size: 36px;
+    color: red;
+}
 
 
 footer {
@@ -97,7 +104,10 @@ footer {
 }
 ul > li{
     list-style-position: outside;
+    list-style-type: '✓ ';
+    color: red;
 }
+
 
 
 .taskRL{
