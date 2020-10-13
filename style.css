@@ -17,6 +17,7 @@ h3 {
 }
 
 .contenet {
+
     margin-bottom: 50px;
 }
 
@@ -24,6 +25,7 @@ h3 {
     margin-left: 125px;
     margin-right: 75px;
     height: 2048px;
+    margin-top: 70px;
 }
 
 .img {
@@ -92,7 +94,7 @@ h3 {
 }
 
 footer {
-    margin-top: 200px;
+    margin-top: 180px;
     font-size: 24px;
     text-align: justify;
     height: 120px;
