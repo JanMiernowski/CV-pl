@@ -60,18 +60,16 @@ h3 {
 }
 
 .description {
-    height: 224px;
-    border-top: 1px solid red;
+    height: 185px;
     font-size: 28px;
     text-align: justify;
-    padding-top: 10px;
+    padding-top: 50px;
 }
 
 .rightSide {
     float: left;
-    width: 705px;
-    height: 1350px;
-    border-left: 1px solid red;
+    width: 709px;
+    height: 1370px;
     margin-top: 50px;
     padding-left: 70px;
 }
@@ -79,7 +77,7 @@ h3 {
 .leftSide {
     width: 547px;
     float: left;
-    height: 1350px;
+    height: 1370px;
     border-right: 1px solid red;
     margin-top: 50px;
 }
@@ -94,7 +92,7 @@ h3 {
 }
 
 footer {
-    margin-top: 180px;
+    margin-top: 160px;
     font-size: 24px;
     text-align: justify;
     height: 120px;
