@@ -1,5 +1,5 @@
-skills = ['Java 8', 'Maven', 'MySQL i Microsoft SQL Server', 'Hibernate i JDBC',
-    'HTML, CSS i JavaScript', 'TypeScript', 'Angular', 'JUnit 5', 'C++', 'GIT'];
+skills = ['Java 8', 'Spring','Maven', 'PL/SQL, Oracle, MySQL, MS SQL', 'Hibernate, JDBC',
+    'HTML, CSS', 'JUnit 5', 'Jira', 'GIT', 'Scrum'];
 let viewSkills = "";
 
 function viewSkillsList() {

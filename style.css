@@ -29,20 +29,19 @@ h3 {
 }
 
 .img {
-    width: 334px;
-    height: 450px;
+    width: 440px;
+    height: 550px;
     float: left;
-    margin-left: 107px;
-    margin-right: 107px;
+    margin-left: 55px;
+    margin-right: 55px;
 }
 
 .foto {
-    width: 334px;
-    height: 450px;
+    height: 550px;
 }
 
 .title {
-    width: 778px;
+    width: 752px;
     height: 450px;
     float: left;
 }
@@ -92,18 +91,18 @@ h3 {
 }
 
 footer {
-    margin-top: 160px;
+    margin-top: 60px;
     font-size: 24px;
     text-align: justify;
     height: 120px;
 }
 
 .taskL {
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 .taskR {
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 .info {
@@ -139,8 +138,19 @@ footer {
     width: 405px;
     float: left;
     margin-left: 50px;
+    margin-bottom: 20px;
     text-align: left;
     line-height: 130%;
+}
+
+.link{
+    font-size: 30px;
+    font-weight: bold;
+}
+a:link, a:visited, a:hover, a:active  {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
 }
 
 
